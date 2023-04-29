@@ -9,14 +9,14 @@ local CustomShop = loadstring(game:HttpGet("https://raw.githubusercontent.com/Re
 
 
 -- Create your tool here
-local exampleTool = LoadCustomInstance("rbxassetid://11397433017")
+local exampleTool = LoadCustomInstance("rbxassetid://11397433017") --custom items
 
 
 -- Create custom shop item
 CustomShop.CreateItem(exampleTool, {
-    Title = "Example Item",
+    Title = "Example Item", 
     Desc = "Example description",
-    Image = "https://cdn.discordapp.com/attachments/1034486774627573821/1035460240352747541/ExampleImage.png",
+    Image = "https://static.wikia.nocookie.net/doors-game/images/9/9b/Library_Book.png/revision/latest?cb=20220813201527", 
     Price = 999,
     Stack = 1,
 })
